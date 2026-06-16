@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: e05_pro
+    relative_path: urdf/e05.xacro
+  srdf:
+    relative_path: config/e05.srdf
+  package_settings:
+    author_name: yushenghan
+    author_email: 2381528093@qq.com
+    generated_timestamp: 1781502815
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

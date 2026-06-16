@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="e05">
+    <xacro:arg name="transmission_hw_interface" default="hardware_interface/PositionJointInterface"/>
+
+    <xacro:include filename="$(find e05_pro)/urdf/E05_Pro.urdf.xacro"/>
+    <xacro:include filename="$(find e05_pro)/urdf/gazebo.xacro"/>
+    <xacro:include filename="$(find robotiq_description)/urdf/2f_85.ros2_control.xacro"/>
+
+
+    <xacro:macro name="transmission_block" params="name">
+
+        <joint name="${name}">
+            <command_interface name="position">
+                <param name="min">-3.14</param>
+                <param name="max">3.14</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <transmission name="${name}_trans">
+            <plugin>transmission_interface/SimpleTransmission</plugin>
+            <actuator name="${name}_motor" role="actuator">
+                <mechanical_reduction>1.0</mechanical_reduction>
+                <offset>0.0</offset>
+            </actuator>
+            <joint name="${name}" role="joint">
+                <offset>0.0</offset>
+            </joint>
+        </transmission>
+        
+    </xacro:macro>
+
+    <xacro:macro name="gazebo_reference" params="joint_name">
+        <gazebo reference="${joint_name}">
+            <implicitSpringDamper>1</implicitSpringDamper>
+            <mu1>1000</mu1>
+            <mu2>1000</mu2>
+        </gazebo>
+    
+    </xacro:macro>
+
+    <ros2_control name="GazeboSystem" type="system">
+        <hardware>
+            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+        </hardware>
+
+        <xacro:transmission_block name="joint1"/>
+        <xacro:transmission_block name="joint2"/>
+        <xacro:transmission_block name="joint3"/>
+        <xacro:transmission_block name="joint4"/>
+        <xacro:transmission_block name="joint5"/>
+        <xacro:transmission_block name="joint6"/>
+
+        <xacro:robotiq_gripper_ros2_control prefix=""/>
+
+    </ros2_control>
+
+    <xacro:gazebo_reference joint_name="joint1"/>
+    <xacro:gazebo_reference joint_name="joint2"/>
+    <xacro:gazebo_reference joint_name="joint3"/>
+    <xacro:gazebo_reference joint_name="joint4"/>
+    <xacro:gazebo_reference joint_name="joint5"/>
+    <xacro:gazebo_reference joint_name="joint6"/>
+
+    
+
+    <gazebo reference="base_link"><material>Gazebo/Black</material></gazebo>
+    <gazebo reference="link1"><material>Gazebo/White</material></gazebo>
+    <gazebo reference="link2"><material>Gazebo/Orange</material></gazebo>
+    <gazebo reference="link3"><material>Gazebo/White</material></gazebo>
+    <gazebo reference="link4"><material>Gazebo/Orange</material></gazebo>
+    <gazebo reference="link5"><material>Gazebo/White</material></gazebo>
+    <gazebo reference="link6"><material>Gazebo/Red</material></gazebo>
+
+    <xacro:include filename="$(find robotiq_description)/urdf/robotiq_2f_85_macro.urdf.xacro"/>
+
+    <xacro:robotiq_gripper name="RobotiqGripperHardwareInterface" prefix="" parent="robotiq_link">
+        <origin xyz="0 0 0" rpy="0 0 0" />
+    </xacro:robotiq_gripper>
+
+    <!-- <gazebo>
+        <plugin name="gazebo_grasp_fix" filename="libgazebo_grasp_fix.so">
+            <arm>
+                <arm_name>ur5_gripper</arm_name>
+                <palm_name>link6</palm_name>
+                <gripper_link>gripper_finger1_finger_tip_link</gripper_link>
+                <gripper_link>gripper_finger2_finger_tip_link</gripper_link>
+                <gripper_link>gripper_finger2_knuckle_link</gripper_link>
+                <gripper_link>gripper_finger1_knuckle_link</gripper_link>
+                <gripper_link>gripper_finger1_inner_knuckle_link</gripper_link>
+                <gripper_link>gripper_finger2_inner_knuckle_link</gripper_link>
+            </arm>
+            <forces_angle_tolerance>150</forces_angle_tolerance>
+            <update_rate>130</update_rate>
+            <grip_count_threshold>2</grip_count_threshold>
+            <max_grip_count>8</max_grip_count>
+            <release_tolerance>0.005</release_tolerance>
+            <disable_collisions_on_attach>true</disable_collisions_on_attach>
+            <contact_topic>__default_topic__</contact_topic>
+        </plugin>
+    </gazebo> -->
+    
+</robot>
