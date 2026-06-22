@@ -1,0 +1,11 @@
+/home/yu/Desktop/robotic_arm_ws/build/roboticsgroup_upatras_gazebo_plugins/CMakeFiles/uninstall.dir
+/home/yu/Desktop/robotic_arm_ws/build/roboticsgroup_upatras_gazebo_plugins/CMakeFiles/roboticsgroup_upatras_gazebo_plugins_uninstall.dir
+/home/yu/Desktop/robotic_arm_ws/build/roboticsgroup_upatras_gazebo_plugins/CMakeFiles/roboticsgroup_upatras_gazebo_mimic_joint_plugin.dir
+/home/yu/Desktop/robotic_arm_ws/build/roboticsgroup_upatras_gazebo_plugins/CMakeFiles/roboticsgroup_upatras_gazebo_disable_link_plugin.dir
+/home/yu/Desktop/robotic_arm_ws/build/roboticsgroup_upatras_gazebo_plugins/CMakeFiles/test.dir
+/home/yu/Desktop/robotic_arm_ws/build/roboticsgroup_upatras_gazebo_plugins/CMakeFiles/edit_cache.dir
+/home/yu/Desktop/robotic_arm_ws/build/roboticsgroup_upatras_gazebo_plugins/CMakeFiles/rebuild_cache.dir
+/home/yu/Desktop/robotic_arm_ws/build/roboticsgroup_upatras_gazebo_plugins/CMakeFiles/list_install_components.dir
+/home/yu/Desktop/robotic_arm_ws/build/roboticsgroup_upatras_gazebo_plugins/CMakeFiles/install.dir
+/home/yu/Desktop/robotic_arm_ws/build/roboticsgroup_upatras_gazebo_plugins/CMakeFiles/install/local.dir
+/home/yu/Desktop/robotic_arm_ws/build/roboticsgroup_upatras_gazebo_plugins/CMakeFiles/install/strip.dir

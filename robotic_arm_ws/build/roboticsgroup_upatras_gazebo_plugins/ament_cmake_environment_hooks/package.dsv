@@ -1,0 +1,4 @@
+source;share/roboticsgroup_upatras_gazebo_plugins/local_setup.bash
+source;share/roboticsgroup_upatras_gazebo_plugins/local_setup.dsv
+source;share/roboticsgroup_upatras_gazebo_plugins/local_setup.sh
+source;share/roboticsgroup_upatras_gazebo_plugins/local_setup.zsh

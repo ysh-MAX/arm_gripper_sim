@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4f8566354de1eec2fadb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "roboticsgroup_upatras_gazebo_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "roboticsgroup_upatras_gazebo_disable_link_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboticsgroup_upatras_gazebo_disable_link_plugin-1734631033013081ff61.json",
+					"name" : "roboticsgroup_upatras_gazebo_disable_link_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboticsgroup_upatras_gazebo_mimic_joint_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboticsgroup_upatras_gazebo_mimic_joint_plugin-9e088cd473ef8c19abd1.json",
+					"name" : "roboticsgroup_upatras_gazebo_mimic_joint_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboticsgroup_upatras_gazebo_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboticsgroup_upatras_gazebo_plugins_uninstall-65b2b9531505bb78fab4.json",
+					"name" : "roboticsgroup_upatras_gazebo_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c65edf53438b29d77eff.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yu/Desktop/robotic_arm_ws/build/roboticsgroup_upatras_gazebo_plugins",
+		"source" : "/home/yu/Desktop/robotic_arm_ws/src/roboticsgroup_upatras_gazebo_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

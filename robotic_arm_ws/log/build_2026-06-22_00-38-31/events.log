@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000368] (-) JobUnselected: {'identifier': 'e05_moveit'}
+[0.000425] (-) JobUnselected: {'identifier': 'roboticsgroup_upatras_gazebo_plugins'}
+[0.000450] (-) JobUnselected: {'identifier': 'robotiq_description'}
+[0.000617] (e05_pro) JobQueued: {'identifier': 'e05_pro', 'dependencies': OrderedDict()}
+[0.000659] (e05_pro) JobStarted: {'identifier': 'e05_pro'}
+[0.099805] (-) TimerEvent: {}
+[0.200077] (-) TimerEvent: {}
+[0.300436] (-) TimerEvent: {}
+[0.406742] (-) TimerEvent: {}
+[0.415463] (e05_pro) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/e05_pro', 'build', '--build-base', '/home/yu/Desktop/robotic_arm_ws/build/e05_pro/build', 'install', '--record', '/home/yu/Desktop/robotic_arm_ws/build/e05_pro/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yu/Desktop/robotic_arm_ws/src/e05_pro', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yu', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yu/Desktop/robotic_arm_ws/install/roboticsgroup_upatras_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/yu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '1530', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/yu/Desktop/robotic_arm_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/yu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yu-virtual-machine:@/tmp/.ICE-unix/1503,unix/yu-virtual-machine:/tmp/.ICE-unix/1503', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d2d66f5e_ba1f_4689_88b6_9c138046288b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.87', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yu/Desktop/robotic_arm_ws/build/e05_pro', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yu/Desktop/robotic_arm_ws/build/e05_pro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yu/Desktop/robotic_arm_ws/install/e05_pro/lib/python3.10/site-packages:/home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages:/home/yu/Desktop/robotic_arm_ws/install/e05_pro/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.507022] (-) TimerEvent: {}
+[0.574543] (e05_pro) StdoutLine: {'line': b'running egg_info\n'}
+[0.575094] (e05_pro) StdoutLine: {'line': b'creating ../../build/e05_pro/e05_pro.egg-info\n'}
+[0.575263] (e05_pro) StdoutLine: {'line': b'writing ../../build/e05_pro/e05_pro.egg-info/PKG-INFO\n'}
+[0.575422] (e05_pro) StdoutLine: {'line': b'writing dependency_links to ../../build/e05_pro/e05_pro.egg-info/dependency_links.txt\n'}
+[0.575484] (e05_pro) StdoutLine: {'line': b'writing entry points to ../../build/e05_pro/e05_pro.egg-info/entry_points.txt\n'}
+[0.575538] (e05_pro) StdoutLine: {'line': b'writing requirements to ../../build/e05_pro/e05_pro.egg-info/requires.txt\n'}
+[0.575577] (e05_pro) StdoutLine: {'line': b'writing top-level names to ../../build/e05_pro/e05_pro.egg-info/top_level.txt\n'}
+[0.575719] (e05_pro) StdoutLine: {'line': b"writing manifest file '../../build/e05_pro/e05_pro.egg-info/SOURCES.txt'\n"}
+[0.576165] (e05_pro) StdoutLine: {'line': b"reading manifest file '../../build/e05_pro/e05_pro.egg-info/SOURCES.txt'\n"}
+[0.577642] (e05_pro) StdoutLine: {'line': b"writing manifest file '../../build/e05_pro/e05_pro.egg-info/SOURCES.txt'\n"}
+[0.577725] (e05_pro) StdoutLine: {'line': b'running build\n'}
+[0.577822] (e05_pro) StdoutLine: {'line': b'running install\n'}
+[0.577860] (e05_pro) StdoutLine: {'line': b'running install_data\n'}
+[0.577895] (e05_pro) StdoutLine: {'line': b'creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/ament_index\n'}
+[0.577960] (e05_pro) StdoutLine: {'line': b'creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/ament_index/resource_index\n'}
+[0.578007] (e05_pro) StdoutLine: {'line': b'creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/ament_index/resource_index/packages\n'}
+[0.578042] (e05_pro) StdoutLine: {'line': b'copying resource/e05_pro -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/ament_index/resource_index/packages\n'}
+[0.578078] (e05_pro) StdoutLine: {'line': b'copying package.xml -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro\n'}
+[0.578612] (e05_pro) StdoutLine: {'line': b'creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/launch\n'}
+[0.578713] (e05_pro) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/launch\n'}
+[0.578783] (e05_pro) StdoutLine: {'line': b'copying launch/gazebo_moviet_bringup.launch.py -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/launch\n'}
+[0.578824] (e05_pro) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/launch\n'}
+[0.578863] (e05_pro) StdoutLine: {'line': b'creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes\n'}
+[0.578908] (e05_pro) StdoutLine: {'line': b'creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual\n'}
+[0.578947] (e05_pro) StdoutLine: {'line': b'copying meshes/visual/link5.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual\n'}
+[0.579001] (e05_pro) StdoutLine: {'line': b'copying meshes/visual/base_link.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual\n'}
+[0.579148] (e05_pro) StdoutLine: {'line': b'copying meshes/visual/link3.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual\n'}
+[0.579827] (e05_pro) StdoutLine: {'line': b'copying meshes/visual/link6.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual\n'}
+[0.580664] (e05_pro) StdoutLine: {'line': b'copying meshes/visual/link2.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual\n'}
+[0.580767] (e05_pro) StdoutLine: {'line': b'copying meshes/visual/link1.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual\n'}
+[0.581203] (e05_pro) StdoutLine: {'line': b'copying meshes/visual/link4.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual\n'}
+[0.581287] (e05_pro) StdoutLine: {'line': b'creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision\n'}
+[0.581615] (e05_pro) StdoutLine: {'line': b'copying meshes/collision/link5.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision\n'}
+[0.582239] (e05_pro) StdoutLine: {'line': b'copying meshes/collision/base_link.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision\n'}
+[0.582334] (e05_pro) StdoutLine: {'line': b'copying meshes/collision/link3.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision\n'}
+[0.582680] (e05_pro) StdoutLine: {'line': b'copying meshes/collision/link6.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision\n'}
+[0.583150] (e05_pro) StdoutLine: {'line': b'copying meshes/collision/link2.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision\n'}
+[0.583520] (e05_pro) StdoutLine: {'line': b'copying meshes/collision/link1.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision\n'}
+[0.584000] (e05_pro) StdoutLine: {'line': b'copying meshes/collision/link4.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision\n'}
+[0.584173] (e05_pro) StdoutLine: {'line': b'creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/config\n'}
+[0.584303] (e05_pro) StdoutLine: {'line': b'copying config/E05_Pro.yaml -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/config\n'}
+[0.584356] (e05_pro) StdoutLine: {'line': b'creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/urdf\n'}
+[0.584393] (e05_pro) StdoutLine: {'line': b'copying urdf/E05_Pro.urdf.xacro -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/urdf\n'}
+[0.584501] (e05_pro) StdoutLine: {'line': b'copying urdf/e05.xacro -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/urdf\n'}
+[0.584560] (e05_pro) StdoutLine: {'line': b'copying urdf/gazebo.xacro -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/urdf\n'}
+[0.584598] (e05_pro) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.586344] (e05_pro) StdoutLine: {'line': b'Copying ../../build/e05_pro/e05_pro.egg-info to /home/yu/Desktop/robotic_arm_ws/install/e05_pro/lib/python3.10/site-packages/e05_pro-0.0.0-py3.10.egg-info\n'}
+[0.587022] (e05_pro) StdoutLine: {'line': b'running install_scripts\n'}
+[0.601853] (e05_pro) StdoutLine: {'line': b"writing list of installed files to '/home/yu/Desktop/robotic_arm_ws/build/e05_pro/install.log'\n"}
+[0.607248] (-) TimerEvent: {}
+[0.618076] (e05_pro) CommandEnded: {'returncode': 0}
+[0.625480] (e05_pro) JobEnded: {'identifier': 'e05_pro', 'rc': 0}
+[0.626299] (-) EventReactorShutdown: {}

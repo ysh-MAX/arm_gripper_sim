@@ -1,0 +1,4 @@
+source;share/e05_moveit/local_setup.bash
+source;share/e05_moveit/local_setup.dsv
+source;share/e05_moveit/local_setup.sh
+source;share/e05_moveit/local_setup.zsh

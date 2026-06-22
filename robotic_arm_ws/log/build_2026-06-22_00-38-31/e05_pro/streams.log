@@ -1,0 +1,51 @@
+[0.416s] Invoking command in '/home/yu/Desktop/robotic_arm_ws/src/e05_pro': PYTHONPATH=/home/yu/Desktop/robotic_arm_ws/build/e05_pro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yu/Desktop/robotic_arm_ws/install/e05_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/e05_pro build --build-base /home/yu/Desktop/robotic_arm_ws/build/e05_pro/build install --record /home/yu/Desktop/robotic_arm_ws/build/e05_pro/install.log --single-version-externally-managed install_data
+[0.574s] running egg_info
+[0.575s] creating ../../build/e05_pro/e05_pro.egg-info
+[0.575s] writing ../../build/e05_pro/e05_pro.egg-info/PKG-INFO
+[0.575s] writing dependency_links to ../../build/e05_pro/e05_pro.egg-info/dependency_links.txt
+[0.575s] writing entry points to ../../build/e05_pro/e05_pro.egg-info/entry_points.txt
+[0.575s] writing requirements to ../../build/e05_pro/e05_pro.egg-info/requires.txt
+[0.575s] writing top-level names to ../../build/e05_pro/e05_pro.egg-info/top_level.txt
+[0.575s] writing manifest file '../../build/e05_pro/e05_pro.egg-info/SOURCES.txt'
+[0.576s] reading manifest file '../../build/e05_pro/e05_pro.egg-info/SOURCES.txt'
+[0.577s] writing manifest file '../../build/e05_pro/e05_pro.egg-info/SOURCES.txt'
+[0.577s] running build
+[0.577s] running install
+[0.577s] running install_data
+[0.577s] creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/ament_index
+[0.577s] creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/ament_index/resource_index
+[0.577s] creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/ament_index/resource_index/packages
+[0.577s] copying resource/e05_pro -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/ament_index/resource_index/packages
+[0.577s] copying package.xml -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro
+[0.578s] creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/launch
+[0.578s] copying launch/display.launch.py -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/launch
+[0.578s] copying launch/gazebo_moviet_bringup.launch.py -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/launch
+[0.578s] copying launch/gazebo.launch.py -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/launch
+[0.578s] creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes
+[0.578s] creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual
+[0.578s] copying meshes/visual/link5.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual
+[0.578s] copying meshes/visual/base_link.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual
+[0.579s] copying meshes/visual/link3.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual
+[0.579s] copying meshes/visual/link6.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual
+[0.580s] copying meshes/visual/link2.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual
+[0.580s] copying meshes/visual/link1.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual
+[0.581s] copying meshes/visual/link4.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/visual
+[0.581s] creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision
+[0.581s] copying meshes/collision/link5.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision
+[0.582s] copying meshes/collision/base_link.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision
+[0.582s] copying meshes/collision/link3.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision
+[0.582s] copying meshes/collision/link6.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision
+[0.583s] copying meshes/collision/link2.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision
+[0.583s] copying meshes/collision/link1.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision
+[0.583s] copying meshes/collision/link4.STL -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/meshes/collision
+[0.584s] creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/config
+[0.584s] copying config/E05_Pro.yaml -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/config
+[0.584s] creating /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/urdf
+[0.584s] copying urdf/E05_Pro.urdf.xacro -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/urdf
+[0.584s] copying urdf/e05.xacro -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/urdf
+[0.584s] copying urdf/gazebo.xacro -> /home/yu/Desktop/robotic_arm_ws/install/e05_pro/share/e05_pro/urdf
+[0.584s] running install_egg_info
+[0.586s] Copying ../../build/e05_pro/e05_pro.egg-info to /home/yu/Desktop/robotic_arm_ws/install/e05_pro/lib/python3.10/site-packages/e05_pro-0.0.0-py3.10.egg-info
+[0.586s] running install_scripts
+[0.601s] writing list of installed files to '/home/yu/Desktop/robotic_arm_ws/build/e05_pro/install.log'
+[0.618s] Invoked command in '/home/yu/Desktop/robotic_arm_ws/src/e05_pro' returned '0': PYTHONPATH=/home/yu/Desktop/robotic_arm_ws/build/e05_pro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yu/Desktop/robotic_arm_ws/install/e05_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/e05_pro build --build-base /home/yu/Desktop/robotic_arm_ws/build/e05_pro/build install --record /home/yu/Desktop/robotic_arm_ws/build/e05_pro/install.log --single-version-externally-managed install_data

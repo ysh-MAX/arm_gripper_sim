@@ -1,0 +1,11 @@
+manipulator:                          
+  default_planner_config: RRTConnect
+  planner_configs:
+    - RRTConnect
+    - RRT
+    - PRM
+
+gripper:                      
+  default_planner_config: RRTConnect
+  planner_configs:
+    - RRTConnect

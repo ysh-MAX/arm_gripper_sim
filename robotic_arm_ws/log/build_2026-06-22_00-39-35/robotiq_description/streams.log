@@ -1,0 +1,76 @@
+[0.637s] Invoking command in '/home/yu/Desktop/robotic_arm_ws/src/robotiq_description': PYTHONPATH=/home/yu/Desktop/robotic_arm_ws/build/robotiq_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotiq_description build --build-base /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build install --record /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/install.log --single-version-externally-managed install_data
+[0.803s] running egg_info
+[0.804s] creating ../../build/robotiq_description/robotiq_description.egg-info
+[0.804s] writing ../../build/robotiq_description/robotiq_description.egg-info/PKG-INFO
+[0.804s] writing dependency_links to ../../build/robotiq_description/robotiq_description.egg-info/dependency_links.txt
+[0.804s] writing entry points to ../../build/robotiq_description/robotiq_description.egg-info/entry_points.txt
+[0.804s] writing requirements to ../../build/robotiq_description/robotiq_description.egg-info/requires.txt
+[0.804s] writing top-level names to ../../build/robotiq_description/robotiq_description.egg-info/top_level.txt
+[0.804s] writing manifest file '../../build/robotiq_description/robotiq_description.egg-info/SOURCES.txt'
+[0.806s] reading manifest file '../../build/robotiq_description/robotiq_description.egg-info/SOURCES.txt'
+[0.806s] writing manifest file '../../build/robotiq_description/robotiq_description.egg-info/SOURCES.txt'
+[0.807s] running build
+[0.807s] running build_py
+[0.807s] creating /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build
+[0.807s] creating /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build/lib
+[0.807s] creating /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build/lib/robotiq_description
+[0.807s] copying robotiq_description/__init__.py -> /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build/lib/robotiq_description
+[0.807s] running install
+[0.807s] running install_lib
+[0.808s] creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages/robotiq_description
+[0.808s] copying /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build/lib/robotiq_description/__init__.py -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages/robotiq_description
+[0.808s] byte-compiling /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages/robotiq_description/__init__.py to __init__.cpython-310.pyc
+[0.808s] running install_data
+[0.808s] creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/ament_index
+[0.808s] creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/ament_index/resource_index
+[0.808s] creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/ament_index/resource_index/packages
+[0.809s] copying resource/robotiq_description -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/ament_index/resource_index/packages
+[0.809s] copying package.xml -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description
+[0.809s] creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes
+[0.809s] creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual
+[0.809s] creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+[0.809s] copying meshes/visual/2f_140/robotiq_2f_140_outer_finger.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+[0.809s] copying meshes/visual/2f_140/robotiq_2f_140_inner_finger.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+[0.809s] copying meshes/visual/2f_140/robotiq_2f_140_base_link.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+[0.810s] copying meshes/visual/2f_140/robotiq_2f_140_outer_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+[0.810s] copying meshes/visual/2f_140/robotiq_2f_140_inner_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+[0.811s] copying meshes/visual/2f_140/robotiq_2f_140_coupling.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+[0.811s] creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[0.811s] copying meshes/visual/2f_85/right_knuckle.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[0.811s] copying meshes/visual/2f_85/left_inner_knuckle.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[0.816s] copying meshes/visual/2f_85/right_finger.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[0.816s] copying meshes/visual/2f_85/left_knuckle.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[0.816s] copying meshes/visual/2f_85/right_inner_knuckle.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[0.816s] copying meshes/visual/2f_85/ur_to_robotiq_adapter.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[0.816s] copying meshes/visual/2f_85/robotiq_base.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[0.816s] copying meshes/visual/2f_85/right_finger_tip.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[0.816s] copying meshes/visual/2f_85/left_finger.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[0.816s] copying meshes/visual/2f_85/left_finger_tip.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[0.816s] creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision
+[0.816s] creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+[0.816s] copying meshes/collision/2f_140/robotiq_2f_140_outer_finger.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+[0.816s] copying meshes/collision/2f_140/robotiq_2f_140_inner_finger.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+[0.816s] copying meshes/collision/2f_140/robotiq_2f_140_base_link.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+[0.816s] copying meshes/collision/2f_140/robotiq_2f_140_outer_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+[0.816s] copying meshes/collision/2f_140/robotiq_2f_140_inner_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+[0.817s] copying meshes/collision/2f_140/robotiq_2f_140_coupling.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+[0.817s] creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[0.817s] copying meshes/collision/2f_85/left_finger_tip.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[0.817s] copying meshes/collision/2f_85/right_inner_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[0.817s] copying meshes/collision/2f_85/robotiq_base.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[0.817s] copying meshes/collision/2f_85/left_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[0.817s] copying meshes/collision/2f_85/left_finger.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[0.817s] copying meshes/collision/2f_85/ur_to_robotiq_adapter.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[0.817s] copying meshes/collision/2f_85/right_finger.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[0.817s] copying meshes/collision/2f_85/left_inner_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[0.817s] copying meshes/collision/2f_85/right_finger_tip.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[0.817s] copying meshes/collision/2f_85/right_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[0.818s] creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/urdf
+[0.818s] copying urdf/robotiq_2f_85_macro.urdf.xacro -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/urdf
+[0.818s] copying urdf/2f_85.ros2_control.xacro -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/urdf
+[0.818s] copying urdf/robotiq_2f_85_gripper.urdf.xacro -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/urdf
+[0.818s] running install_egg_info
+[0.818s] Copying ../../build/robotiq_description/robotiq_description.egg-info to /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages/robotiq_description-0.0.0-py3.10.egg-info
+[0.818s] running install_scripts
+[0.835s] writing list of installed files to '/home/yu/Desktop/robotic_arm_ws/build/robotiq_description/install.log'
+[0.856s] Invoked command in '/home/yu/Desktop/robotic_arm_ws/src/robotiq_description' returned '0': PYTHONPATH=/home/yu/Desktop/robotic_arm_ws/build/robotiq_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotiq_description build --build-base /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build install --record /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/install.log --single-version-externally-managed install_data

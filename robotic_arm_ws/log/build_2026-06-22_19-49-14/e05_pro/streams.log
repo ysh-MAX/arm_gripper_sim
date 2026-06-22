@@ -1,0 +1,18 @@
+[0.628s] Invoking command in '/home/yu/Desktop/robotic_arm_ws/src/e05_pro': PYTHONPATH=/home/yu/Desktop/robotic_arm_ws/build/e05_pro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yu/Desktop/robotic_arm_ws/install/e05_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/e05_pro build --build-base /home/yu/Desktop/robotic_arm_ws/build/e05_pro/build install --record /home/yu/Desktop/robotic_arm_ws/build/e05_pro/install.log --single-version-externally-managed install_data
+[0.795s] running egg_info
+[0.795s] writing ../../build/e05_pro/e05_pro.egg-info/PKG-INFO
+[0.796s] writing dependency_links to ../../build/e05_pro/e05_pro.egg-info/dependency_links.txt
+[0.796s] writing entry points to ../../build/e05_pro/e05_pro.egg-info/entry_points.txt
+[0.796s] writing requirements to ../../build/e05_pro/e05_pro.egg-info/requires.txt
+[0.796s] writing top-level names to ../../build/e05_pro/e05_pro.egg-info/top_level.txt
+[0.796s] reading manifest file '../../build/e05_pro/e05_pro.egg-info/SOURCES.txt'
+[0.798s] writing manifest file '../../build/e05_pro/e05_pro.egg-info/SOURCES.txt'
+[0.798s] running build
+[0.798s] running install
+[0.798s] running install_data
+[0.798s] running install_egg_info
+[0.801s] removing '/home/yu/Desktop/robotic_arm_ws/install/e05_pro/lib/python3.10/site-packages/e05_pro-0.0.0-py3.10.egg-info' (and everything under it)
+[0.802s] Copying ../../build/e05_pro/e05_pro.egg-info to /home/yu/Desktop/robotic_arm_ws/install/e05_pro/lib/python3.10/site-packages/e05_pro-0.0.0-py3.10.egg-info
+[0.802s] running install_scripts
+[0.817s] writing list of installed files to '/home/yu/Desktop/robotic_arm_ws/build/e05_pro/install.log'
+[0.833s] Invoked command in '/home/yu/Desktop/robotic_arm_ws/src/e05_pro' returned '0': PYTHONPATH=/home/yu/Desktop/robotic_arm_ws/build/e05_pro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yu/Desktop/robotic_arm_ws/install/e05_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/e05_pro build --build-base /home/yu/Desktop/robotic_arm_ws/build/e05_pro/build install --record /home/yu/Desktop/robotic_arm_ws/build/e05_pro/install.log --single-version-externally-managed install_data

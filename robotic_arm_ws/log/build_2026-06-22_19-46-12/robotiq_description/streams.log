@@ -1,0 +1,20 @@
+[0.816s] Invoking command in '/home/yu/Desktop/robotic_arm_ws/src/robotiq_description': PYTHONPATH=/home/yu/Desktop/robotic_arm_ws/build/robotiq_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotiq_description build --build-base /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build install --record /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/install.log --single-version-externally-managed install_data
+[0.991s] running egg_info
+[0.991s] writing ../../build/robotiq_description/robotiq_description.egg-info/PKG-INFO
+[0.992s] writing dependency_links to ../../build/robotiq_description/robotiq_description.egg-info/dependency_links.txt
+[0.992s] writing entry points to ../../build/robotiq_description/robotiq_description.egg-info/entry_points.txt
+[0.992s] writing requirements to ../../build/robotiq_description/robotiq_description.egg-info/requires.txt
+[0.992s] writing top-level names to ../../build/robotiq_description/robotiq_description.egg-info/top_level.txt
+[0.994s] reading manifest file '../../build/robotiq_description/robotiq_description.egg-info/SOURCES.txt'
+[0.995s] writing manifest file '../../build/robotiq_description/robotiq_description.egg-info/SOURCES.txt'
+[0.996s] running build
+[0.996s] running build_py
+[0.996s] running install
+[0.996s] running install_lib
+[0.998s] running install_data
+[0.999s] running install_egg_info
+[1.001s] removing '/home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages/robotiq_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.001s] Copying ../../build/robotiq_description/robotiq_description.egg-info to /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages/robotiq_description-0.0.0-py3.10.egg-info
+[1.002s] running install_scripts
+[1.026s] writing list of installed files to '/home/yu/Desktop/robotic_arm_ws/build/robotiq_description/install.log'
+[1.044s] Invoked command in '/home/yu/Desktop/robotic_arm_ws/src/robotiq_description' returned '0': PYTHONPATH=/home/yu/Desktop/robotic_arm_ws/build/robotiq_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotiq_description build --build-base /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build install --record /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/install.log --single-version-externally-managed install_data

@@ -1,0 +1,74 @@
+running egg_info
+creating ../../build/robotiq_description/robotiq_description.egg-info
+writing ../../build/robotiq_description/robotiq_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/robotiq_description/robotiq_description.egg-info/dependency_links.txt
+writing entry points to ../../build/robotiq_description/robotiq_description.egg-info/entry_points.txt
+writing requirements to ../../build/robotiq_description/robotiq_description.egg-info/requires.txt
+writing top-level names to ../../build/robotiq_description/robotiq_description.egg-info/top_level.txt
+writing manifest file '../../build/robotiq_description/robotiq_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/robotiq_description/robotiq_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/robotiq_description/robotiq_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build
+creating /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build/lib
+creating /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build/lib/robotiq_description
+copying robotiq_description/__init__.py -> /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build/lib/robotiq_description
+running install
+running install_lib
+creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages/robotiq_description
+copying /home/yu/Desktop/robotic_arm_ws/build/robotiq_description/build/lib/robotiq_description/__init__.py -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages/robotiq_description
+byte-compiling /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages/robotiq_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/ament_index
+creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/ament_index/resource_index
+creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/ament_index/resource_index/packages
+copying resource/robotiq_description -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description
+creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes
+creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual
+creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+copying meshes/visual/2f_140/robotiq_2f_140_outer_finger.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+copying meshes/visual/2f_140/robotiq_2f_140_inner_finger.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+copying meshes/visual/2f_140/robotiq_2f_140_base_link.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+copying meshes/visual/2f_140/robotiq_2f_140_outer_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+copying meshes/visual/2f_140/robotiq_2f_140_inner_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+copying meshes/visual/2f_140/robotiq_2f_140_coupling.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+copying meshes/visual/2f_85/right_knuckle.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+copying meshes/visual/2f_85/left_inner_knuckle.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+copying meshes/visual/2f_85/right_finger.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+copying meshes/visual/2f_85/left_knuckle.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+copying meshes/visual/2f_85/right_inner_knuckle.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+copying meshes/visual/2f_85/ur_to_robotiq_adapter.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+copying meshes/visual/2f_85/robotiq_base.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+copying meshes/visual/2f_85/right_finger_tip.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+copying meshes/visual/2f_85/left_finger.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+copying meshes/visual/2f_85/left_finger_tip.dae -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision
+creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+copying meshes/collision/2f_140/robotiq_2f_140_outer_finger.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+copying meshes/collision/2f_140/robotiq_2f_140_inner_finger.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+copying meshes/collision/2f_140/robotiq_2f_140_base_link.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+copying meshes/collision/2f_140/robotiq_2f_140_outer_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+copying meshes/collision/2f_140/robotiq_2f_140_inner_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+copying meshes/collision/2f_140/robotiq_2f_140_coupling.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+copying meshes/collision/2f_85/left_finger_tip.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+copying meshes/collision/2f_85/right_inner_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+copying meshes/collision/2f_85/robotiq_base.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+copying meshes/collision/2f_85/left_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+copying meshes/collision/2f_85/left_finger.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+copying meshes/collision/2f_85/ur_to_robotiq_adapter.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+copying meshes/collision/2f_85/right_finger.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+copying meshes/collision/2f_85/left_inner_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+copying meshes/collision/2f_85/right_finger_tip.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+copying meshes/collision/2f_85/right_knuckle.stl -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+creating /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/urdf
+copying urdf/robotiq_2f_85_macro.urdf.xacro -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/urdf
+copying urdf/2f_85.ros2_control.xacro -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/urdf
+copying urdf/robotiq_2f_85_gripper.urdf.xacro -> /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/share/robotiq_description/urdf
+running install_egg_info
+Copying ../../build/robotiq_description/robotiq_description.egg-info to /home/yu/Desktop/robotic_arm_ws/install/robotiq_description/lib/python3.10/site-packages/robotiq_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yu/Desktop/robotic_arm_ws/build/robotiq_description/install.log'
